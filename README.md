@@ -28,7 +28,7 @@ A robust and modern Android application built with Kotlin and XML that allows us
 *   **System Sound:** The app assumes the device has a valid default alarm ringtone configured (`Settings.System.DEFAULT_ALARM_ALERT_URI`).
 *   **Time Handling:** For simplicity, the `TimePickerDialog` defaults to a 24-hour format. If a scheduled time has already passed for the current day, the app automatically assumes the alarm is for the *next* day.
 
-## ⚠️ Known Limitations
+## ⚠️ Known Limitations 
 
 1.  **Custom Ringtones:** The app currently plays the system's default alarm sound. Selecting custom audio files from the device storage is not implemented in this version.
 2.  **Repeating Alarms:** The current scheduling logic handles single-occurrence exact alarms. Complex recurring schedules (e.g., "Every Monday and Wednesday") would require a more complex database schema and scheduling logic.
